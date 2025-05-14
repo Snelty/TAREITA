@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-image: url('../img/fondo.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  color: #333;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.lista-practicas {
+  width: 30%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('../img/momo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.lista-practicas ul {
+  list-style-type: none;
+}
+
+.lista-practicas a {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.lista-practicas a:hover {
+  background-color: #005fa3;
+}
+
+.info-practicas {
+  width: 65%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  display: none;
+  background-image: url('../img/images.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  opacity: 0.7;
+  height: 600px;
+  min-height: 600px;
+}
+
+.info:target {
+  display: block;
+}
+
+h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff; 
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+footer strong {
+  color: #fff; 
+}
+
+.info-practicas .info {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.info-header {
+  background-image: url('../img/saturno.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info-header h2 {
+  font-size: 32px;
+  z-index: 2;
+}
+.info-contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.info-detalle {
+  flex: 1;
+  text-align: left;
+}
+
+.info-detalle img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.info-detalle ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-detalle ul li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.otros-planetas {
+  flex: 1;
+  text-align: left;
+}
+
+.otros-planetas table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.otros-planetas table,
+.otros-planetas th,
+.otros-planetas td {
+  border: 1px solid #ddd;
+}
+
+.otros-planetas th,
+.otros-planetas td {
+  padding: 10px;
+  text-align: left;
+}
+
+.info-practicas .info button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.info-practicas .info button:hover {
+  background-color: #005fa3;
+}
